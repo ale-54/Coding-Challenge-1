@@ -15,7 +15,7 @@ console.log(typeof productPrice);
 console.log(typeof isAvailable);
 
 //Task 3 - Financial Transactions
-let accountBalance = `384`; //account balance
+let accountBalance = 384; //account balance
 accountBalance -=200;
 console.log(accountBalance); //184
 accountBalance +=1000;
@@ -24,3 +24,8 @@ accountBalance *=1.5;
 console.log(accountBalance); //576
 accountBalance /=2;
 console.log(accountBalance); //192
+
+//Task 4 - Customer Messaging
+let customerName = `Mordecai Bird`; //customer's name
+let welcomeName = `Hi ` + customerName `, Thank you for checking out our store!`;
+console.log(welcomeName); //Hi Mordecai Bird, Thank you for checking out our store!
