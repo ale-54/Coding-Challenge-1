@@ -13,3 +13,14 @@ var isAvailable = `true`; //product availability status
 console.log(typeof productName);
 console.log(typeof productPrice);
 console.log(typeof isAvailable);
+
+//Task 3 - Financial Transactions
+let accountBalance = `384`; //account balance
+accountBalance -=200;
+console.log(accountBalance); //184
+accountBalance +=1000;
+console.log(accountBalance); //1384
+accountBalance *=1.5;
+console.log(accountBalance); //576
+accountBalance /=2;
+console.log(accountBalance); //192
